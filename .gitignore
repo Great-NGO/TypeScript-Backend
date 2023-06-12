@@ -2,3 +2,4 @@ node_modules
 .env
 # No need to push dist folder... it would be compiled or gotten automatically in production
 dist
+uploads

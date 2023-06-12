@@ -61,6 +61,7 @@ app.use((error:Error, req:Request, res: Response, next: NextFunction) => {
 
 });
 
+
 // Invalid routes and/or requests
 app.use("*", (req: Request, res: Response) => {
     res.status(404).send({
